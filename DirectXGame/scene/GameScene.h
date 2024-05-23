@@ -9,6 +9,8 @@
 #include "WorldTransform.h"
 #include "Player.h"
 
+#include<vector>
+
 /// <summary>
 /// ゲームシーン
 /// </summary>
@@ -40,19 +42,27 @@ public: // メンバ関数
 	/// </summary>
 	void Draw();
 
-	// 3Dモデルデータ
-	Model* model_ = nullptr;
-	// ビュープロジェクション
-	ViewProjection viewProjection_;
+	
 
-	// 自キャラ
-	Player* player_ = nullptr;
+	
 
 private: // メンバ変数
 	DirectXCommon* dxCommon_ = nullptr;
 	Input* input_ = nullptr;
 	Audio* audio_ = nullptr;
 	uint32_t textureHandle_ = 0;
+
+	std::vector<WorldTransform*> worldTransformBlocks_;
+
+	// 3Dモデルデータ
+	Model* model_ = nullptr;
+	// ビュープロジェクション
+	ViewProjection viewProjection_;
+	// 自キャラ
+	Player* player_ = nullptr;
+
+	Model* modelBlock_ = nullptr;
+
 
 	/// <summary>
 	/// ゲームシーン用

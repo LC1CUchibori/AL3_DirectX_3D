@@ -1,12 +1,19 @@
 #include "GameScene.h"
 #include "TextureManager.h"
 #include <cassert>
+#include"WorldTransform.h"
+
 
 GameScene::GameScene() {}
 
 GameScene::~GameScene() {
 	delete player_;
 	delete model_;
+
+	for (WorldTransform* worldTransformBlock : worldTransformBlocks_) {
+		delete worldTransformBlock;
+	}
+	worldTransformBlocks_.clear();
 }
 
 void GameScene::Initialize() {
@@ -16,24 +23,57 @@ void GameScene::Initialize() {
 	audio_ = Audio::GetInstance();
 
 	textureHandle_ = TextureManager::Load("uvChecker.png");
-	model_ = Model::Create();
 	viewProjection_.Initialize();
 
 	// 自キャラの生成
 	player_ = new Player();
 	// 自キャラの初期化
 	player_->Initialize(model_, textureHandle_, &viewProjection_);
+
+	// 3Dモデルの生成
+	model_ = Model::Create();
+	modelBlock_ = Model::Create();
+
+	// 要素数
+	const uint32_t kNumBlockHorizontal = 20;
+	// ブロック1個分の描画
+	const float kBlockWidth = 2.0f;
+	// 要素数を変更する
+	worldTransformBlocks_.resize(kNumBlockHorizontal);
+
+	// キューブの生成
+	for (uint32_t i = 0; i < kNumBlockHorizontal; ++i) {
+
+		worldTransformBlocks_[i] = new WorldTransform();
+		worldTransformBlocks_[i]->Initialize();
+		worldTransformBlocks_[i]->translation_.x = kBlockWidth * i;
+		worldTransformBlocks_[i]->translation_.y = 0.0f;
+	}
 }
 
 void GameScene::Update() {
 	// 自キャラの更新
 	player_->Update();
+
+	for (WorldTransform* worldTransformBlock :
+		worldTransformBlocks_) {
+
+		// アフィン変換行列の作成
+		worldTransformBlock->matWorld_ = MakeAffineMatrix(worldTransformBlock->scale_, worldTransformBlock->rotation_, worldTransformBlock->translation_);
+	
+		// 定数バッファに転送する
+		worldTransformBlock->TransferMatrix();
+	}
 }
 
 void GameScene::Draw() {
 
 	// コマンドリストの取得
 	ID3D12GraphicsCommandList* commandList = dxCommon_->GetCommandList();
+
+	for (WorldTransform* worldTransformBlock : worldTransformBlocks_) {
+		modelBlock_->Draw(*worldTransformBlock, viewProjection_);
+	}
 
 #pragma region 背景スプライト描画
 	// 背景スプライト描画前処理

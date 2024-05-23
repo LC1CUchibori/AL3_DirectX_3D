@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\WorldTransformEx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:WorldTransformEx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\math\\Matrix4x4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:math\\Matrix4x4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Math.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\scene\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\GameScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:scene\\GameScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21B76583-DB5E-4750-B00C-FBCF46ABCE48}|DirectXGame.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +66,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Matrix4x4.h",
+              "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\math\\Matrix4x4.h",
+              "RelativeDocumentMoniker": "math\\Matrix4x4.h",
+              "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\math\\Matrix4x4.h",
+              "RelativeToolTip": "math\\Matrix4x4.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-23T04:08:33.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Math.cpp",
+              "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Math.cpp",
+              "RelativeDocumentMoniker": "Math.cpp",
+              "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Math.cpp",
+              "RelativeToolTip": "Math.cpp",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-23T03:58:23.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Math.h",
+              "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Math.h",
+              "RelativeDocumentMoniker": "Math.h",
+              "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Math.h",
+              "RelativeToolTip": "Math.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-23T03:20:07.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorldTransformEx.cpp",
+              "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\WorldTransformEx.cpp",
+              "RelativeDocumentMoniker": "WorldTransformEx.cpp",
+              "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\WorldTransformEx.cpp",
+              "RelativeToolTip": "WorldTransformEx.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-23T01:34:18.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
@@ -63,52 +131,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
               "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\Player.h",
               "RelativeToolTip": "Player.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-23T01:19:35.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameScene.cpp",
               "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\scene\\GameScene.cpp",
               "RelativeDocumentMoniker": "scene\\GameScene.cpp",
               "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\scene\\GameScene.cpp",
               "RelativeToolTip": "scene\\GameScene.cpp",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwE8AAAABAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-23T01:19:12.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "GameScene.h",
               "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\scene\\GameScene.h",
               "RelativeDocumentMoniker": "scene\\GameScene.h",
               "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\scene\\GameScene.h",
               "RelativeToolTip": "scene\\GameScene.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-23T01:19:16.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7\\AL3_DirectX_3D\\DirectXGame\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-23T01:19:09.926Z",
               "EditorCaption": ""
