@@ -1,0 +1,73 @@
+﻿  main.cpp
+  GameScene.cpp
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(54,13): error C3646: 'soundDataHandle': 不明なオーバーライド指定子です
+  (ソース ファイル 'main.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(54,29): error C2059: 構文エラー: '='
+  (ソース ファイル 'main.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(54,32): error C2238: ';' の前に無効なトークンがあります。
+  (ソース ファイル 'main.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(56,13): error C3646: 'voiceHandle': 不明なオーバーライド指定子です
+  (ソース ファイル 'main.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(56,25): error C2059: 構文エラー: '='
+  (ソース ファイル 'main.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(56,28): error C2238: ';' の前に無効なトークンがあります。
+  (ソース ファイル 'main.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(54,13): error C3646: 'soundDataHandle': 不明なオーバーライド指定子です
+  (ソース ファイル 'scene/GameScene.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(54,29): error C2059: 構文エラー: '='
+  (ソース ファイル 'scene/GameScene.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(54,32): error C2238: ';' の前に無効なトークンがあります。
+  (ソース ファイル 'scene/GameScene.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(56,13): error C3646: 'voiceHandle': 不明なオーバーライド指定子です
+  (ソース ファイル 'scene/GameScene.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(56,25): error C2059: 構文エラー: '='
+  (ソース ファイル 'scene/GameScene.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.h(56,28): error C2238: ';' の前に無効なトークンがあります。
+  (ソース ファイル 'scene/GameScene.cpp' をコンパイルしています)
+  
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(12,9): error C2065: 'sprite_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(12,2): error C2541: 'delete': ポインターではないオブジェクトを削除することはできません。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(13,9): error C2065: 'model_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(13,2): error C2541: 'delete': ポインターではないオブジェクトを削除することはできません。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(14,9): error C2065: 'debugCamera_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(14,2): error C2541: 'delete': ポインターではないオブジェクトを削除することはできません。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(19,2): error C2065: 'dxCommon_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(20,2): error C2065: 'input_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(21,2): error C2065: 'audio_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(24,2): error C2065: 'textureHandle_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(26,2): error C2065: 'soundDataHandle_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(26,21): error C2065: 'audio_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(29,2): error C2065: 'sprite_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(29,27): error C2065: 'textureHandle_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(31,2): error C2065: 'model_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(33,2): error C2065: 'audio_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(33,19): error C2065: 'soundDataHandle_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(34,2): error C2065: 'voiceHandle_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(34,17): error C2065: 'audio_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(34,34): error C2065: 'soundDataHandle_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(36,2): error C2065: 'debugCamera_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(41,57): error C2065: 'debugCamera_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(47,2): error C2065: 'worldTransform_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(55,21): error C2065: 'sprite_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(60,2): error C2065: 'sprite_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(63,6): error C2065: 'input_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(65,3): error C2065: 'audio_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(65,20): error C2065: 'voiceHandle_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(69,2): error C2065: 'debugCamera_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(88,43): error C2065: 'dxCommon_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(102,2): error C2065: 'dxCommon_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(117,2): error C2065: 'model_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(117,15): error C2065: 'worldTransform_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(117,32): error C2065: 'debugCamera_': 定義されていない識別子です。
+C:\デスクトップ\AL3_DirectX_3D\DirectXGame\scene\GameScene.cpp(117,67): error C2065: 'textureHandle_': 定義されていない識別子です。
