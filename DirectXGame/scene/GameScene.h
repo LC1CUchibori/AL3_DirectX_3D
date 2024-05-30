@@ -8,6 +8,7 @@
 #include "ViewProjection.h"
 #include "WorldTransform.h"
 #include "Player.h"
+#include "MapChipField.h"
 
 /// <summary>
 /// ゲームシーン
@@ -40,6 +41,8 @@ public: // メンバ関数
 	/// </summary>
 	void Draw();
 
+	void GenerateBlocks();
+
 	// 3Dモデルデータ
 	Model* model_ = nullptr;
 	// ビュープロジェクション
@@ -47,6 +50,8 @@ public: // メンバ関数
 
 	// 自キャラ
 	Player* player_ = nullptr;
+
+	MapChipField* mapChipField_;
 
 private: // メンバ変数
 	DirectXCommon* dxCommon_ = nullptr;

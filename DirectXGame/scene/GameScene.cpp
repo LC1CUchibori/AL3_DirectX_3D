@@ -7,6 +7,7 @@ GameScene::GameScene() {}
 GameScene::~GameScene() {
 	delete player_;
 	delete model_;
+	delete mapChipField_;
 }
 
 void GameScene::Initialize() {
@@ -23,6 +24,12 @@ void GameScene::Initialize() {
 	player_ = new Player();
 	// 自キャラの初期化
 	player_->Initialize(model_, textureHandle_, &viewProjection_);
+
+	mapChipField_ = new MapChipField;
+	mapChipField_->LoadMapChipCsv("Resources/blocks.csv");
+
+	GameScene::GenerateBlocks();
+
 }
 
 void GameScene::Update() {
@@ -78,3 +85,10 @@ void GameScene::Draw() {
 
 #pragma endregion
 }
+
+void GameScene::GenerateBlocks()
+{
+	uint32_t numBlockVirtical = mapChipField_->GetNumBlockVirtical();
+	uint32_t numBlockHorizontal = mapChipField_->GetNumBlockHorizontal();
+}
+
